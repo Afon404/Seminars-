@@ -1,4 +1,4 @@
-﻿               // Найти максимальное из трех чисел
+﻿               // Найти максимальное из трех чисел.
 
 Console.WriteLine("Введите первое число: ");
 int one = Convert.ToInt32(Console.ReadLine());
