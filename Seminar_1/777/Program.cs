@@ -1,27 +1,27 @@
 ﻿// Показать последнюю цифру трёхзначного числа
 
-int n = 6667;
-int lastNumber = n % 10;
+// int n = 6667;
+// int lastNumber = n % 10;
 
-Console.Write(lastNumber);
+// Console.Write(lastNumber);
 
 
            //  Напишите программу, которая на вход принимает число и выдаёт, 
                //  является ли число чётным (делится ли оно на два без остатка).
 
-Console.WriteLine("Введите число: ");
-string firstString = Console.ReadLine();
-int a = Convert.ToInt32(firstString);
-  if (a%2 == 0){
-    Console.Write("Число ");
-    Console.Write(a);
-    Console.Write(" чётное.");
-  }
-  if (a%2 > 0){
-    Console.Write("Число ");
-    Console.Write(a);
-    Console.Write(" нечётное.");
-  }
+// Console.WriteLine("Введите число: ");
+// string firstString = Console.ReadLine();
+// int a = Convert.ToInt32(firstString);
+//   if (a%2 == 0){
+//     Console.Write("Число ");
+//     Console.Write(a);
+//     Console.Write(" чётное.");
+//   }
+//   if (a%2 > 0){
+//     Console.Write("Число ");
+//     Console.Write(a);
+//     Console.Write(" нечётное.");
+//   }
 
 
 
@@ -34,60 +34,60 @@ int a = Convert.ToInt32(firstString);
 //  Напишите программу, которая принимает на вход три числа и 
 //  выдаёт максимальное из этих чисел.
 
-int a, b, c;
- Console.WriteLine("Введите первое число");
+// int a, b, c;
+//  Console.WriteLine("Введите первое число");
 
- a = Convert.ToInt32(Console.ReadLine());
+//  a = Convert.ToInt32(Console.ReadLine());
 
- Console.WriteLine("Введите второе число");
+//  Console.WriteLine("Введите второе число");
 
- b = Convert.ToInt32(Console.ReadLine());
+//  b = Convert.ToInt32(Console.ReadLine());
 
- Console.WriteLine("Введите третье число");
+//  Console.WriteLine("Введите третье число");
 
- c = Convert.ToInt32(Console.ReadLine());
-
-
-int max = a;
-
-if(a > max) max = a;
-if(b > max) max = b;
-if(c > max) max = c;
-
-Console.Write("max число = ");
-Console.WriteLine(max);
+//  c = Convert.ToInt32(Console.ReadLine());
 
 
+// int max = a;
+
+// if(a > max) max = a;
+// if(b > max) max = b;
+// if(c > max) max = c;
+
+// Console.Write("max число = ");
+// Console.WriteLine(max);
 
 
- Console.WriteLine("Введите второе число");
-
- b = Convert.ToInt32(Console.ReadLine());
 
 
- if (a > b)
+//  Console.WriteLine("Введите второе число");
+
+//  b = Convert.ToInt32(Console.ReadLine());
+
+
+//  if (a > b)
  
-        {
+//         {
  
-            Console.Write("Наибольшее число : ");
-            Console.WriteLine(a);
-            Console.Write("Наименьшее число : ");
-            Console.WriteLine(b);
+//             Console.Write("Наибольшее число : ");
+//             Console.WriteLine(a);
+//             Console.Write("Наименьшее число : ");
+//             Console.WriteLine(b);
  
-        }
+//         }
  
-        else
+//         else
  
-        {
+//         {
  
-            Console.Write("Наибольшее число : ");
-            Console.WriteLine(b);
-            Console.Write("Наименьшее число : ");
-            Console.WriteLine(a);
+//             Console.Write("Наибольшее число : ");
+//             Console.WriteLine(b);
+//             Console.Write("Наименьшее число : ");
+//             Console.WriteLine(a);
  
-        }
+//         }
  
-        Console.ReadLine();
+//         Console.ReadLine();
 
 
 
