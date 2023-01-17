@@ -1,7 +1,7 @@
-Program.cs
-Program.cs
-Program.cs
-Program.cs
+*.Program.cs
+Program.cs/
+.Program.cs
+Program.cs/
 Program.cs
 
 ## Ignore Visual Studio temporary files, build results, and
