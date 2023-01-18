@@ -19,13 +19,18 @@ System.Console.WriteLine($"Если из числа {Number} удалить вт
 System.Console.WriteLine();
 
 
+            // Второй вариант
+
+// Console.WriteLine("Введите три числа:  ");
+
+// int number1 = int.Parse(Console.ReadLine()!);
+
+// Console.WriteLine(number1 / 100 * 10 + number1 % 10);
 
 
 
 
-
-
-
+       // Ну это третий 
 
 
 // Console.WriteLine("Введите число");
