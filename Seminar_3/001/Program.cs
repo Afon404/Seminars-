@@ -20,9 +20,24 @@ while (number <= N)
 }
 
 
+        
 
 
-    ////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+    /////////////////////////  Черновики ///////////////////////////
     
 // Console.Clear();
 // Console.Write("Введите число N: ");
@@ -75,3 +90,8 @@ while (number <= N)
 // PrintCubs(CubeTable);
 
 
+// Console.WriteLine("Введите число ло которого буде считать куб: ");
+// int N = int.Parse(Console.ReadLine()!);
+
+// int value = 0;
+// int number = 1;
