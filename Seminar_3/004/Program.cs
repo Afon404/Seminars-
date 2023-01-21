@@ -1,12 +1,9 @@
-﻿
-
-
-     ///   Показать кубы чисел, заканчивающихся на четную цифру .
+﻿ //   Показать кубы чисел, заканчивающихся на четную цифру .
 
 
 Console.Clear();
 Console.Write("Введите число: ");
-int num = int.Parse(Console.ReadLine());
+int num = int.Parse(Console.ReadLine()!);
 
 if (num % 2 == 0)  
 {
