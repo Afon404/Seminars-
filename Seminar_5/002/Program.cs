@@ -8,19 +8,24 @@
 // тройка складывается с двойкой и т.д.
 // int[] max = new int[] {int.Parse(Console.ReadLine())};
 
- //   0, 1, 1, 2, 3, 5, 8, 13,
-Console.Write("Введите диапазод до скольки: ");
-int max = int.Parse(Console.ReadLine());
-int countA = 0, countB = 0;
+/////////////////////////////////////////////////////////////////////////
 
-for (int i = 0; i < max.Length; i++)
-{
-   
- //   0, 1, 1, 2, 3, 5, 8, 13,
-for (int j = 1; j < max.Length; j++)
-{
-    countB = j;
-    countA = j + i;
-}
-}
-System.Console.WriteLine($"Вывод {countA} {countB}");
+
+Console.Write("До какого числа показать числа Фибоначчи? :\t");
+int number = int.Parse(Console.ReadLine()!);
+
+int First = 1;
+Console.Write("{0} ", First);
+int Second = 1;
+Console.Write("{0} ", Second);
+int sum = 0;
+while (number >= sum)
+            {
+                sum = First + Second;
+                
+                    Console.Write("{0} ", sum);
+                    
+                        First = Second;
+                        Second = sum;                
+                }
+                Console.ReadLine();
