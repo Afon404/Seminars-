@@ -1,6 +1,6 @@
 ﻿
     //    Задать массив, заполнить случайными положительными трёхзначными числами. 
-   //     Показать количество нечетных\четных чисел
+    //    Показать количество нечетных\четных чисел
 
 /////////////////////////////////////////////////////////////////
 
@@ -23,16 +23,16 @@ int[] Array(int size)
 
 void PrintResult(int[] array)
 {
-    int even = 0;
-    int odd = 0;
+    int evenNum = 0;
+    int oddNum = 0;
     for (int i = 0; i < array.Length; i++)
     {
         Console.Write(array[i] + " ");
-        if (array[i] % 2 == 0) even++;
-        else odd++;
+        if (array[i] % 2 == 0) evenNum++;
+        else oddNum++;
     }
     Console.WriteLine();
-    Console.WriteLine($"Количество четных чисел {even}, количество нечетных чисел {odd}");
+    Console.WriteLine($"Количество четных чисел {evenNum}, количество нечетных чисел {oddNum}");
     Console.WriteLine();
 }
 
